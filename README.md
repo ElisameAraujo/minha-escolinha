@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/ElisameAraujo/ElisameAraujo/refs/heads/main/projetos/logos/minha-escolinha.png">
+
 # Sobre este CRM
 
 Meu objetivo na hora de criar este projeto foi de facilitar pequenas e médias escolinhas de futebol e futsal que existem pelo Brasil. Já estive em contato alguns projetos pequenos, participei de alguns como aluno durante minha adolescência e também como parte de um divulgador de projetos através de redes sociais e YouTube.
@@ -28,6 +30,16 @@ Você pode utilizar o código abaixo para clonar este repositório:
     git clone https://github.com/ElisameAraujo/minha-escolinha
 
 Ou você pode baixar a versão mais recente do projeto em [Releases](https://github.com/ElisameAraujo/minha-escolinha/releases).
+
+# Logs
+
+| Tipo de Log    | |
+| -------- | ------- |
+| Andamento  | [Link](https://github.com/ElisameAraujo/minha-escolinha/blob/main/logs/andamento.md)    |
+| Atualizações | [Link](https://github.com/ElisameAraujo/minha-escolinha/blob/main/logs/atualizacoes.md)     |
+| Correções    | [Link](https://github.com/ElisameAraujo/minha-escolinha/blob/main/logs/correcoes.md)    |
+| Melhorias (MQV) | [Link](https://github.com/ElisameAraujo/minha-escolinha/blob/main/logs/mqv.md) |
+
 
 # Funções
 ### 1. Gerenciamento de Atletas/Alunos
