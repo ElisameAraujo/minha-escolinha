@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ElisameAraujo/ElisameAraujo/refs/heads/main/projetos/logos/minha-escolinha.png">
+<img src="https://raw.githubusercontent.com/ElisameAraujo/ElisameAraujo/refs/heads/main/projetos/logos/minha-escolinha.jpg">
 
 # Sobre este CRM
 
