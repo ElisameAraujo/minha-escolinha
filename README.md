@@ -24,13 +24,6 @@ O Painel de Administração utiliza o [Dashboard Mazer](https://github.com/zuram
 
 O site é um template criado por [Elisame Araújo](https://github.com/ElisameAraujo).
 
-# Como usar esse CRM?
-Você pode utilizar o código abaixo para clonar este repositório:
-
-    git clone https://github.com/ElisameAraujo/minha-escolinha
-
-Ou você pode baixar a versão mais recente do projeto em [Releases](https://github.com/ElisameAraujo/minha-escolinha/releases).
-
 # Logs
 
 | Tipo de Log    | |
