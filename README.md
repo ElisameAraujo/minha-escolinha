@@ -76,7 +76,7 @@ Neste painel de configuração você poderá editar informações como escudo da
 Ative ou desative funções que estarão presentes no seu site de maneira rápida e simples.
 
 
-# Funções Adicionais
+# Módulos Adicionais
 ### 1. Galeria de Vídeos
 Adicione ao seu site uma galeria de vídeos para divulgar momentos da sua equipe em campeonatos e/ou amistosos, treinamentos, excursões ou outros eventos relacionados a sua equipe.
 
@@ -110,4 +110,4 @@ Adicione a página de contato um formulário simples de contato para que pessoas
 - Ainda não há nenhum pacote adicionado.
 
 # Extensões Javascript
-- Ainda não há nenhum pacote adicionado.
+- Ainda não há nenhuma extensão adicionada.
