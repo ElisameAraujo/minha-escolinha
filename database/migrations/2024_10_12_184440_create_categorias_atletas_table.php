@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('categorias_atletas', function (Blueprint $table) {
             $table->increments('categoriaAtletaID');
-            $table->string('categoriaAtleta');
+            $table->string('categoriaNome');
+            $table->string('categoriaDenominacao');
             $table->string('genero');
         });
     }
