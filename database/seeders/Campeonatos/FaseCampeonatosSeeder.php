@@ -6,7 +6,7 @@ use App\Models\Campeonatos\FaseCampeonatos;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class FaseCampeonatosSeed extends Seeder
+class FaseCampeonatosSeeder extends Seeder
 {
     /**
      * Esse seed tem as principais fase de um campeonato.

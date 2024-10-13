@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\User;
-use Database\Seeders\Campeonatos\FaseCampeonatosSeed;
+use Database\Seeders\Campeonatos\FaseCampeonatosSeeder;
 use Database\Seeders\Configuracoes\{
     CategoriasAtletasSeeder,
     InformacoesProjetoSeeder
@@ -19,6 +19,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(InformacoesProjetoSeeder::class);
         $this->call(CategoriasAtletasSeeder::class);
-        $this->call(FaseCampeonatosSeed::class);
+        $this->call(FaseCampeonatosSeeder::class);
     }
 }
