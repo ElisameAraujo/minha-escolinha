@@ -9,8 +9,9 @@ use Illuminate\Database\Seeder;
 class InformacoesProjetoSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Define configurações sobre o projeto e o valor à eles atribuídos
      */
+    
     public function run(): void
     {
         InformacoesProjeto::create([
@@ -43,6 +44,10 @@ class InformacoesProjetoSeeder extends Seeder
             'infoID' => 14,'informacao' => 'corSecundaria', 'valor' => NULL
         ])->create([
             'infoID' => 15,'informacao' => 'corTerciaria', 'valor' => NULL
+        ])->create([
+            'infoID' => 16,'informacao' => 'valorMensalidade', 'valor' => NULL
+        ])->create([
+            'infoID' => 17,'informacao' => 'diaVencimentoMensalidade', 'valor' => 5
         ]);
     }
 }
