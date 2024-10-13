@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models\RedeSocial;
+namespace App\Models\Modules\RedeSocial;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
