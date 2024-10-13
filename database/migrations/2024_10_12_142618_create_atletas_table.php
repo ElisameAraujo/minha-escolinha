@@ -19,6 +19,8 @@ return new class extends Migration
             $table->integer('matricula')->unsigned();
             $table->integer('carteirinhaID')->unsigned()->nullable();
             $table->integer('categoriaID')->unsigned();
+            $table->tinyInteger('posicaoID');
+            $table->string('outrasPosicoes')->nullable();
             $table->string('email', 256)->nullable();
             $table->string('telefone', 20);
             $table->string('foto');
