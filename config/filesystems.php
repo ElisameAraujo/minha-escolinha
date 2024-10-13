@@ -45,6 +45,69 @@ return [
             'throw' => false,
         ],
 
+        //Armazena as logos dos adversarios da equipe
+        'adversarios' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/aversarios'),
+            'url' => env('APP_URL').'/storage/public/',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        //Armazena a foto de perfil de usuários
+        'users' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/usuarios'),
+            'url' => env('APP_URL').'/storage/public/',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        //Armazena a foto dos atletas usadas na foto de perfil na página de atletas e na carterinha
+        'atletas' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/atletas'),
+            'url' => env('APP_URL').'/storage/public/',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        //Armazena a capa dos posts do blog
+        'posts' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/posts'),
+            'url' => env('APP_URL').'/storage/public/',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        //Armazena as carteirinhas geradas na forma de um pdf para poderem ser impressas
+        'carteirinhas' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/carterinhas'),
+            'url' => env('APP_URL').'/storage/public/',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        //Armazena as fotos de perfis dos jogadores para o módulo "Rede Social"
+        'perfis' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/perfis'),
+            'url' => env('APP_URL').'/storage/public/',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        //Armazena as thumbnails dos vídeos para o módulo "Vídeos"
+        'thumbnail' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/thumbnail'),
+            'url' => env('APP_URL').'/storage/public/',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
