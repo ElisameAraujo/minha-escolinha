@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('informacoes_projeto', function (Blueprint $table) {
             $table->increments('infoID');
             $table->string('informacao');
-            $table->string('valor');
+            $table->string('valor', 512)->nullable();
             $table->timestamps();
         });
     }
