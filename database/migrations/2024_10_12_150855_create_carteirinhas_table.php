@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('carteirinhas', function (Blueprint $table) {
             $table->increments('carteirinhaID');
             $table->integer('atletaID');
-            $table->timestamp('dataExpedicao');
-            $table->timestamp('dataExpiracao');
+            $table->timestamp('dataExpedicao')->nullable();
+            $table->timestamp('dataExpiracao')->nullable();
         });
     }
 
