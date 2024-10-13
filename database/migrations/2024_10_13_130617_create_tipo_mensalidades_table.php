@@ -15,10 +15,7 @@ return new class extends Migration
             $table->increments('tipoMensalidadeID');
             $table->string('tipoMensalidade');
             $table->integer('valorMensalidade');
-<<<<<<< HEAD
             $table->integer('descontoBolsa');
-=======
->>>>>>> 1f0256ce6495ac5879157e5892828a0906a35ea4
             $table->timestamps();
         });
     }
