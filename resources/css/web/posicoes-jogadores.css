@@ -1,0 +1,96 @@
+/* =============== Classes para Posições dos Jogadores =============== */
+:root{
+    /** Posições **/
+    /** == Defesa == **/
+    --gol: #fdeb24;
+    --def: #0f44f5;
+    --lat: #9700d3;
+    --ala: #8f49ff;
+    --lib: #bac9fa;
+    
+    /** == Meia == **/
+    --mei: #0f7e00;
+    --pvol: #82fc72;
+    --svol: #19d600;
+    --meia-arm: #94b600;
+    --meia-lt: #d059ff;
+    --meia-atq: #fcbdbd;
+
+    
+    /** == Ataque == **/
+    --atq: #F00;
+    --sa: #fd3636;
+    --pt: #b60018;
+
+    /** Geral **/
+    --borda: 2px solid var(--preto);
+
+    /** Bordas Customizadas **/
+    --borda-custom: 2px solid;
+    --borda-gol: var(--borda-custom) #a59700;
+    --borda-def: var(--borda-custom) #0026a5;
+    --borda-lat: var(--borda-custom) #540075;
+    --borda-ala-ft: var(--borda-custom) #7925ff;
+    --borda-ala-fs: var(--borda-custom) #0a5500;
+    --borda-lib: var(--borda-custom) #8da6fa;
+    --borda-pvol: var(--borda-custom) #18d100;
+    --borda-svol: var(--borda-custom) #129b00;
+    --borda-mei: var(--borda-custom) #0a4d02;
+    --borda-mea: var(--borda-custom) #677e00;
+    --borda-mlt: var(--borda-custom) #932ebb;
+    --borda-mat: var(--borda-custom) #a03e3e;
+    --borda-ca: var(--borda-custom) #a50000;
+    --borda-sa: var(--borda-custom) #b93636;
+    --borda-pt: var(--borda-custom) #410000;
+
+    /* Cores Base */
+    --preto: #000;
+    --branco: #fff;
+
+}
+
+.badge-posicoes {
+    --bs-badge-padding-x: 0.75em;
+    --bs-badge-padding-y: 0.25em;
+    --bs-badge-font-size: 0.75em;
+    --bs-badge-font-weight: 700;
+    --bs-badge-color: #fff;
+    --bs-badge-border-radius: 0.175rem;
+    display: inline-block;
+    padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+    font-size: var(--bs-badge-font-size);
+    font-weight: var(--bs-badge-font-weight);
+    line-height: 1;
+    color: var(--bs-badge-color);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: var(--bs-badge-border-radius);
+}
+
+
+/** Universais **/
+.bg-gol{ background-color: var(--gol); color: var(--preto); border-bottom: var(--borda-gol); }
+
+/** === Futsal === **/
+.bg-fixo{ background-color: var(--def); color: var(--branco); border-bottom: var(--borda-def); }
+.bg-ala-fs{ background-color: var(--mei); color: var(--branco); border-bottom: var(--borda-ala-fs); }
+.bg-pivo{ background-color: var(--atq); color: var(--branco); border-bottom: var(--borda-posicao); }
+
+/** === Futebol === **/
+.bg-lat{ background-color: var(--lat); color: var(--branco); border-bottom: var(--borda-lat); }
+.bg-zag{ background-color: var(--def); color: var(--branco); border-bottom: var(--borda-def); }
+.bg-ala-ft{ background-color: var(--ala); color: var(--branco); border-bottom: var(--borda-ala-ft); }
+.bg-lib{ background-color: var(--lib); color: var(--preto); border-bottom: var(--borda-lib); }
+.bg-vol{ background-color: var(--mei); color: var(--branco); border-bottom: var(--borda-posicao); }
+.bg-pvol{ background-color: var(--pvol); color: var(--preto); border-bottom: var(--borda-pvol); }
+.bg-svol{ background-color: var(--svol); color: var(--preto); border-bottom: var(--borda-svol); }
+.bg-mei{ background-color: var(--mei); color: var(--branco); border-bottom: var(--borda-mei); }
+.bg-mea{ background-color: var(--meia-arm); color: var(--branco); border-bottom: var(--borda-mea); }
+.bg-mlt{ background-color: var(--meia-lt); color: var(--branco); border-bottom: var(--borda-mlt); }
+.bg-mat{ background-color: var(--meia-atq); color: var(--preto); border-bottom: var(--borda-mat); }
+.bg-ca{ background-color: var(--atq); color: var(--branco); border-bottom: var(--borda-ca); }
+.bg-sa{ background-color: var(--sa); color: var(--branco); border-bottom: var(--borda-sa); }
+.bg-pt{ background-color: var(--pt); color: var(--branco); border-bottom: var(--borda-pt); }
+
+
