@@ -49,23 +49,23 @@ class CategoriasAtletasSeeder extends Seeder
             'categoriaNome' => 'Infantil', 
             'categoriaDenominacao' => 'Sub-15',
         ])->create([
-            'categoriaAtletaID' => 6, 
+            'categoriaAtletaID' => 7, 
             'categoriaNome' => 'Juvenil', 
             'categoriaDenominacao' => 'Sub-17',
         ])->create([
-            'categoriaAtletaID' => 6, 
+            'categoriaAtletaID' => 8, 
             'categoriaNome' => 'Sub-19', 
             'categoriaDenominacao' => 'Sub-19',
         ])->create([
-            'categoriaAtletaID' => 6, 
+            'categoriaAtletaID' => 9, 
             'categoriaNome' => 'Sub-21', 
             'categoriaDenominacao' => 'Sub-21',
         ])->create([
-            'categoriaAtletaID' => 6, 
+            'categoriaAtletaID' => 10, 
             'categoriaNome' => 'Sub-23', 
             'categoriaDenominacao' => 'Sub-23',
         ])->create([
-            'categoriaAtletaID' => 6, 
+            'categoriaAtletaID' => 11, 
             'categoriaNome' => 'Profissional', 
             'categoriaDenominacao' => 'Profissional',
         ]);
