@@ -1,2 +1,1 @@
-@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'; /** Bootstrap Icons 1.x */
-@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css' /** Bootstrap 5.x */
+@import '@fontawesome-icons/fontawesome-free/css/all.min.css'; /** Bootstrap Icons 1.x */

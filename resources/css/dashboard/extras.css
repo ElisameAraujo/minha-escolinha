@@ -1,0 +1,24 @@
+/** Correções para o Mazer **/
+
+/** Tamanho dos ícones para mudar modo claro/escuro **/
+.theme-toggle i{
+    font-size: 0.5em;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.theme-toggle .form-switch .form-check-input{
+    margin-right: -7px;
+    cursor: pointer;
+}
+
+/** Tira o padding desnecessário do #main **/
+#main, html[data-bs-theme=dark] #main{
+    padding: 0;
+}
+
+/** Corrige posicionamento dos ícones dentro de um button **/
+button i{
+    margin-left: 5px;
+}
