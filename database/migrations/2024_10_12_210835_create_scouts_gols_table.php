@@ -15,6 +15,7 @@ return new class extends Migration
             $table->increments('scoutID');
             $table->integer('atletaID');
             $table->integer('gols');
+            $table->integer('categoriaAtletaID');
             $table->timestamp('dataGols');
         });
     }
