@@ -16,7 +16,7 @@ Pequenas e médias escolinhas de futebol e futsal que procuram uma maneira simpl
 <p align="center">
     <a href="https://github.com/laravel/framework" target="_blank"><img src="https://img.shields.io/badge/laravel-11.x-FF2D20?labelColor=FF2D20&style=flat&logo=laravel&logoColor=fff&link=https://github.com/laravel/framework" alt="laravel" /></a>
     <a href="https://github.com/twbs/bootstrap" target="_blank"><img src="https://img.shields.io/badge/bootstrap-5.x-7952B3?labelColor=7952B3&style=flat&logo=bootstrap&logoColor=fff" alt="bootstrap" /></a>
-    <a href="https://github.com/twbs/icons" target="_blank"><img src="https://img.shields.io/badge/bootstrap%20icons-1.11.x-7952B3?labelColor=7952B3&style=flat&logo=bootstrap&logoColor=fff" alt="bootstrap icons" /></a>
+    <img src="https://img.shields.io/badge/fontawesome-6.x-183153?labelColor=183153&style=plastic&logo=fontawesome&logoColor=fff" alt="fontawesome icons" />
     <a href="https://github.com/zuramai/mazer"><img src="https://img.shields.io/badge/zuramai/mazer-gray?style=flat&logo=github&link=https://github.com/zuramai/mazer" alt="zuramai/mazer" /></a>
 </p>
 
