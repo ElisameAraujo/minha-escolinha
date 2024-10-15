@@ -31,7 +31,7 @@
 }
 
 @font-face {
-    font-family: 'Nunito';
+    font-family: 'Nunito Light';
     src: url('woff2/Nunito-LightItalic.woff2') format('woff2');
     font-weight: 300;
     font-style: italic;
@@ -125,4 +125,3 @@
     font-style: italic;
     font-display: swap;
 }
-
