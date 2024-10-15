@@ -72,10 +72,19 @@ return [
             'throw' => false,
         ],
 
-        //Armazena a capa dos posts do blog
+        //Armazena a capa dos posts do módulo "Blog"
         'posts' => [
             'driver' => 'local',
             'root' => storage_path('app/public/posts'),
+            'url' => env('APP_URL').'/storage/public/',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        //Armazena as imagens adicionadas dentro dos posts do blog
+        'img' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/img'),
             'url' => env('APP_URL').'/storage/public/',
             'visibility' => 'public',
             'throw' => false,
@@ -112,6 +121,15 @@ return [
         'albuns' => [
             'driver' => 'local',
             'root' => storage_path('app/public/albuns'),
+            'url' => env('APP_URL').'/storage/public/',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
+        //Armazena as logos dos patrocinadores da equipe do módulo "Patrocinadores"
+        'patrocinadores' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/patrocinadores'),
             'url' => env('APP_URL').'/storage/public/',
             'visibility' => 'public',
             'throw' => false,
