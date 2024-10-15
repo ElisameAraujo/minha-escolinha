@@ -9,7 +9,7 @@ class MotivoMensagem extends Model
 {
     use HasFactory;
 
-    protected $table ='motivo_mensagem';
+    protected $table ='motivo_mensagens';
     protected $primaryKey = 'motivoID';
     public $timestamps = false;
 }
