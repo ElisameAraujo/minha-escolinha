@@ -16,9 +16,9 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            "@bootstrap-icons": path.resolve(__dirname, "./node_modules/bootstrap-icons/"),
+            "@fontawesome-icons": path.resolve(__dirname, "./node_modules/@fortawesome/"),
             "@bootstrap": path.resolve(__dirname, "./node_modules/bootstrap/dist/"),
-            "@fonts": path.resolve(__dirname, "./resources/css/fonts/woff2/"),
+            "@fonts": path.resolve(__dirname, "./resources/css/fonts/"),
         },
     },
 });
