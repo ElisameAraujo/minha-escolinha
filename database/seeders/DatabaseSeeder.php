@@ -7,7 +7,8 @@ use Database\Seeders\Atletas\PosicoesJogadoresSeeder;
 use Database\Seeders\Campeonatos\FaseCampeonatosSeeder;
 use Database\Seeders\Configuracoes\{
     CategoriasAtletasSeeder,
-    InformacoesProjetoSeeder
+    InformacoesProjetoSeeder,
+    MensagensOpcoesSeeder
 };
 use Illuminate\Database\Seeder;
 
@@ -22,5 +23,6 @@ class DatabaseSeeder extends Seeder
         $this->call(CategoriasAtletasSeeder::class);
         $this->call(FaseCampeonatosSeeder::class);
         $this->call(PosicoesJogadoresSeeder::class);
+        $this->call(MensagensOpcoesSeeder::class);
     }
 }
