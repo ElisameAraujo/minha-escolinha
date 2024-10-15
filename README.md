@@ -86,18 +86,18 @@ Notifique seus alunos e responsáveis por eles com antecedência do vencimento d
 
 Este sistema não é um **SISTEMA DE PAGAMENTO** e sim um **SISTEMA DE NOTIFICAÇÃO**.
 
-### 5. Notificações
-Adicione um sistema para enviar notificações para seus alunos e os responsáveis por eles sobre algum evento, aviso ou algo relacionado ao seu projeto. Você poderá enviar essas mensagens de maneira individual, um grupo ou para todos os alunos/responsáveis.
-
-### 6. Rede Social
+### 5. Rede Social
 Crie dentro do site do seu próprio projeto uma rede social para que seus alunos interajam entre eles e com o seu site.
 
 A estrutura permite o envio de fotos e mensagens num perfil público do atleta, além de ele poder gerenciar o próprio perfil.
 
 Ao ativar essa função, todos seus alunos passam a ter um perfil público e eles poderão gerenciar a partir de seus próprios painéis de perfil.
 
-### 7. Formulário de Contato
+### 6. Formulário de Contato
 Adicione a página de contato um formulário simples de contato para que pessoas possam mandar mensagens para você diretamente por e-mail.
+
+### 7. Patrocinadores
+Adicione e remova facilmente os patrocinadores da sua equipe na página inicial do seu site.
 
 # Pacotes Adicionais
 - Ainda não há nenhum pacote adicionado.
