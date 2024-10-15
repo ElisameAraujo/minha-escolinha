@@ -206,7 +206,6 @@
                 </li>
 
                 <!--== Módulo Galeria de Fotos ==-->
-
                 <li class="sidebar-item has-sub">
                     <a href="#" class="sidebar-link">
                         <i class="fa-solid fa-camera-retro"></i>
@@ -226,7 +225,6 @@
                 </li>
 
                 <!--== Módulo Mensalidades ==-->
-
                 <li class="sidebar-item has-sub">
                     <a href="#" class="sidebar-link">
                         <i class="fa-solid fa-money-bill"></i>
@@ -244,24 +242,7 @@
                     </ul>
                 </li>
 
-                <!--== Módulo Rede Social ==-->
-
-                <li class="sidebar-item has-sub">
-                    <a href="#" class="sidebar-link">
-                        <i class="fa-solid fa-comments"></i>
-                        <span>Rede Social</span>
-                    </a>
-
-                    <ul class="submenu">
-                        <li class="submenu-item {{ (request()->is('admin/modulos/rede-social/')) ? 'active' : '' }}">
-                            <a href="#" class="submenu-link"><i class="fa-solid fa-gears"></i> Gerenciar</a>
-                        </li>
-
-                    </ul>
-                </li>
-
                 <!--== Módulo Vídeos ==-->
-
                 <li class="sidebar-item has-sub">
                     <a href="#" class="sidebar-link">
                         <i class="fa-solid fa-video"></i>
@@ -280,6 +261,36 @@
                         <li class="submenu-item {{ (request()->is('admin/modulos/videos/comentarios')) ? 'active' : '' }}">
                             <a href="#" class="submenu-link"><i class="fa-solid fa-comment"></i> Comentários</a>
                         </li>
+                    </ul>
+                </li>
+
+                <!-- Módulo Mensagens == -->
+                <li class="sidebar-item has-sub">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Mensagens</span>
+                    </a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item {{ (request()->is('admin/modulos/mensagens')) || (request()->is('admin/modulos/mensagens/*')) ? 'active' : '' }}">
+                            <a href="#" class="submenu-link"><i class="fa-solid fa-inbox"></i> Caixa de Entrada</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <!--== Módulo Rede Social ==-->
+                <li class="sidebar-item has-sub">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-comments"></i>
+                        <span>Rede Social</span>
+                    </a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item {{ (request()->is('admin/modulos/rede-social/')) ? 'active' : '' }}">
+                            <a href="#" class="submenu-link"><i class="fa-solid fa-gears"></i> Gerenciar</a>
+                        </li>
+
                     </ul>
                 </li>
 
