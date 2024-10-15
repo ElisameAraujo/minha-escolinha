@@ -274,7 +274,7 @@
                         </li>
 
                         <li class="submenu-item {{ (request()->is('admin/modulos/videos/todos-videos')) ? 'active' : '' }}">
-                            <a href="#" class="submenu-link"><i class="fa-solid fa-images"></i> Todos os Vídeos</a>
+                            <a href="#" class="submenu-link"><i class="fa-solid fa-film"></i> Todos os Vídeos</a>
                         </li>
 
                         <li class="submenu-item {{ (request()->is('admin/modulos/videos/comentarios')) ? 'active' : '' }}">
