@@ -19,3 +19,6 @@
 
 ### Módulos
 - Não há nenhuma correção criada ainda.
+
+### Outros
+- Corrigida a importação da biblioteca do bootstrap, tanto para o CSS quanto para Javascript
