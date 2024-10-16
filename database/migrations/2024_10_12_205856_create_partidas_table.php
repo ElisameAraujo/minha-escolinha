@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('local', 64);
             $table->integer('categoriaAtletaID');
             $table->boolean('eMandante');
+            $table->boolean('tipoPartida');
             $table->integer('campeonatoID');
             $table->integer('faseCampeonato');
             $table->timestamps();
