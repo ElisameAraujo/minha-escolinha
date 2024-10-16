@@ -179,6 +179,20 @@
 
                 <li class="sidebar-title"><i class="fa-solid fa-plug"></i> Módulos</li>
 
+                <!-- Módulo Patrocinadores == -->
+                <li class="sidebar-item has-sub">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-star"></i>
+                        <span>Patrocinadores</span>
+                    </a>
+
+                    <ul class="submenu">
+                        <li class="submenu-item {{ (request()->is('admin/modulos/patrocinadores')) || (request()->is('admin/modulos/patrocinadores/*')) ? 'active' : '' }}">
+                            <a href="#" class="submenu-link"><i class="fa-solid fa-gear"></i> Gerenciar</a>
+                        </li>
+                    </ul>
+                </li>
+
                 <!--== Módulo Blog ==-->
                 <li class="sidebar-item has-sub">
                     <a href="#" class="sidebar-link">
@@ -276,21 +290,13 @@
                             <a href="#" class="submenu-link"><i class="fa-solid fa-inbox"></i> Caixa de Entrada</a>
                         </li>
 
-                    </ul>
-                </li>
-
-                <!--== Módulo Rede Social ==-->
-                <li class="sidebar-item has-sub">
-                    <a href="#" class="sidebar-link">
-                        <i class="fa-solid fa-comments"></i>
-                        <span>Rede Social</span>
-                    </a>
-
-                    <ul class="submenu">
-                        <li class="submenu-item {{ (request()->is('admin/modulos/rede-social/')) ? 'active' : '' }}">
-                            <a href="#" class="submenu-link"><i class="fa-solid fa-gears"></i> Gerenciar</a>
+                        <li class="submenu-item">
+                            <a href="#" class="submenu-link"><hr></a>
                         </li>
 
+                        <li class="submenu-item {{ (request()->is('admin/modulos/mensagens')) || (request()->is('admin/modulos/mensagens/*')) ? 'active' : '' }}">
+                            <a href="#" class="submenu-link"><i class="fa-solid fa-inbox"></i> Caixa de Entrada</a>
+                        </li>
                     </ul>
                 </li>
 
