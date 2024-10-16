@@ -21,3 +21,4 @@ yarn-error.log
 /.zed
 /arquivos
 *.bkp
+/public/images/temp
