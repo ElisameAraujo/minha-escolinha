@@ -13952,12 +13952,6 @@ fieldset:disabled .btn {
     color: #fff
 }
 
-.badge-notification {
-    position: absolute;
-    right: 20px;
-    padding: 3px
-}
-
 .btn i,
 .btn svg {
     width: 1rem;
@@ -15045,7 +15039,7 @@ fieldset:disabled .btn {
 
 .navbar {
     height: var(--navbar-height);
-    padding: 1.5rem
+    padding: 0 0 1em 0;
 }
 
 .navbar .navbar-brand img {

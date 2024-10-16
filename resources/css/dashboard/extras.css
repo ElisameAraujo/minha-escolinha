@@ -13,7 +13,6 @@
     cursor: pointer;
 }
 
-
 /** Corrige posicionamento dos ícones dentro de um button **/
 button i{
     margin-left: 5px;
@@ -46,3 +45,12 @@ button i{
 
 .bg-saldo{ background-color: #448fff; color: #fff; }
 .bg-saldo h4{ color: #fff; }
+
+/*** Badges ***/
+.badge-notification {
+    position: absolute;
+    right: 12px;
+    top: 0px;
+    font-size: 10px;
+    padding: 3px 6px
+}

@@ -17,3 +17,11 @@ html[data-bs-theme=dark] .bg-derrota{ background-color: #830000; color: #fff;}
 html[data-bs-theme=dark] .bg-derrota h4{color: #fff;}
 html[data-bs-theme=dark] .bg-saldo{ background-color: #448fff; color: #fff; }
 html[data-bs-theme=dark] .bg-saldo h4{ color: #fff; }
+
+html[data-bs-theme=dark] .badge-notification {
+    position: absolute;
+    right: 12px;
+    top: 0px;
+    font-size: 10px;
+    padding: 3px 6px
+}

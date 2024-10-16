@@ -9067,12 +9067,6 @@ html[data-bs-theme=dark] .btn .badge.bg-transparent {
     color: #fff
 }
 
-html[data-bs-theme=dark] .badge-notification {
-    position: absolute;
-    right: 20px;
-    padding: 3px
-}
-
 html[data-bs-theme=dark] .btn i,
 html[data-bs-theme=dark] .btn svg {
     width: 1rem;
@@ -10164,7 +10158,7 @@ html[data-bs-theme=dark] .navbar-fixed .navbar-top {
 
 html[data-bs-theme=dark] .navbar {
     height: var(--navbar-height);
-    padding: 1.5rem
+    padding: 0 0 1em 0;
 }
 
 html[data-bs-theme=dark] .navbar .navbar-brand img {

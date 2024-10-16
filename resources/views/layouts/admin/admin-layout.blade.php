@@ -9,7 +9,11 @@
     <link rel="shortcut icon" href="{{asset('images/svg/favicon.svg')}}" type="image/x-icon" />
 
     <!-- == Estilos == -->
-    @vite(['resources/css/app-dashboard.css', 'resources/css/app.css'])
+    @vite([
+        'resources/css/app-dashboard.css', 
+        'resources/css/app.css', 
+        'resources/js/app.js'
+    ])
 
     <!-- Scripts [mazer - topo] -->
 
@@ -23,11 +27,13 @@
         @include('components.geral.sidebar')
         
         <div id="main">
-            @include('components.geral.profile-menu')
-
-            @yield('conteudo')
-
-            @include('components.geral.footer')
+            <section class="main-content">
+                @include('components.geral.profile-menu')
+    
+                @yield('conteudo')
+    
+                @include('components.geral.footer')
+            </section>
         </div>
     
     </div>
@@ -36,12 +42,5 @@
 
 <!-- Scripts [mazer - fim] -->
 <script src="{{ asset('mazer/js/dark.js') }}"></script>
-<script src="{{ asset('mazer/js/app.js') }}" type="module"></script>
-
-
-
-<!-- Need: Apexcharts -->
-<script src="assets/extensions/apexcharts/apexcharts.min.js"></script>
-<script src="assets/static/js/pages/dashboard.js"></script>
-
+<script src="{{ asset('mazer/js/app.js') }}"></script>
 </html>
