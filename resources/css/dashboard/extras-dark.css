@@ -1,0 +1,19 @@
+html[data-bs-theme=dark] .card.bg-primary, 
+.card-header.bg-primary h4, 
+.card.bg-dark, 
+.card-header.bg-dark h4,
+.card.bg-secondary,
+.card-header.bg-secondary h4,
+.card.bg-danger,
+.card-header.bg-danger h4,
+.card.bg-success,
+.card-header.bg-success h4{
+    color: #fff !important;
+}
+
+html[data-bs-theme=dark] .bg-vitoria{ background-color: #51a81e; color: #fff;}
+html[data-bs-theme=dark] .bg-vitoria h4{color: #fff;}
+html[data-bs-theme=dark] .bg-derrota{ background-color: #830000; color: #fff;}
+html[data-bs-theme=dark] .bg-derrota h4{color: #fff;}
+html[data-bs-theme=dark] .bg-saldo{ background-color: #448fff; color: #fff; }
+html[data-bs-theme=dark] .bg-saldo h4{ color: #fff; }

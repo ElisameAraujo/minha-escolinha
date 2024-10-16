@@ -13,12 +13,36 @@
     cursor: pointer;
 }
 
-/** Tira o padding desnecessário do #main **/
-#main, html[data-bs-theme=dark] #main{
-    padding: 0;
-}
 
 /** Corrige posicionamento dos ícones dentro de um button **/
 button i{
     margin-left: 5px;
 }
+
+/*** Backgrounds de Status ***/
+.card .card-body.scouts{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.card.bg-primary,
+.card-header.bg-primary h4,
+.card.bg-dark,
+.card-header.bg-dark h4,
+.card.bg-secondary,
+.card-header.bg-secondary h4,
+.card.bg-danger,
+.card-header.bg-danger h4,
+.card.bg-success,
+.card-header.bg-success h4{
+    color: #fff;
+}
+
+.bg-vitoria{ background-color: #51a81e; color: #fff; }
+.bg-vitoria h4{color: #fff;}
+
+.bg-derrota{ background-color: #830000; color: #fff; }
+.bg-derrota h4{color: #fff;}
+
+.bg-saldo{ background-color: #448fff; color: #fff; }
+.bg-saldo h4{ color: #fff; }

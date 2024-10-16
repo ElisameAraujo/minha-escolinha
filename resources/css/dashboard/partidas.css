@@ -1,0 +1,60 @@
+/*** Estilos para Partidas ***/
+.card-body .partida{
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-bottom: 1.5em;
+    border: 1px solid #ccc;
+}
+
+.card-body .partida .resumo{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: .5em;
+}
+
+.card-body .partida .info{
+    padding-top: .5em;
+}
+
+.card-body .partida .resumo .data{
+    font-weight: bold;
+}
+
+.card-body .partida .resumo .local,
+.card-body .partida .resumo .horario,
+.card-body .partida .resumo .campeonato{
+    font-style: italic;
+}
+
+.card-body .partida .resumo .categoria-equipe{
+    color: #8597ff;
+    font-weight: bold;
+}
+
+
+.card-body .partida .separador::after{
+    font-family: 'FontAwesome';
+    font-size: 6px;
+    vertical-align: middle;
+    padding: 1em;
+    content: '\f111';
+}
+
+.card-body .escudo-equipes img{
+    width: 64px;
+}
+
+.card-body .vs{
+    font-size: 1.5em;
+    line-height: 64px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body .equipe-mandante{
+    text-align: right;
+    line-height: 64px;
+}
+
+.card-body .equipe-visitante{
+    line-height: 64px;
+}
