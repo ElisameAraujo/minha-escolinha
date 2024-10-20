@@ -15,6 +15,7 @@ return new class extends Migration
             $table->increments('atletaID');
             $table->string('nomeAtleta');
             $table->string('dataNascimento');
+            $table->string('endereco');
             $table->string('documento', 20);
             $table->integer('matricula')->unsigned();
             $table->integer('carteirinhaID')->unsigned()->nullable();
@@ -23,6 +24,8 @@ return new class extends Migration
             $table->string('outrasPosicoes')->nullable();
             $table->string('email', 256)->nullable();
             $table->string('telefone', 20);
+            $table->string('genero', 1);
+            $table->tinyInteger('esporte');
             $table->string('foto');
             $table->integer('responsavelID')->nullable();
             $table->string('fotoPerfil')->nullable();
