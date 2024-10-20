@@ -43,4 +43,5 @@
 <!-- Scripts [mazer - fim] -->
 <script src="{{ asset('mazer/js/dark.js') }}"></script>
 <script src="{{ asset('mazer/js/app.js') }}"></script>
+@stack('upload-foto-atleta')
 </html>

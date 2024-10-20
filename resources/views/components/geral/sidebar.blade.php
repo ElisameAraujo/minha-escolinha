@@ -33,14 +33,14 @@
                 <li class="sidebar-title"><i class="fa-solid fa-person-running"></i> Gerenciar Atletas</li>
 
                 <li class="sidebar-item {{ (request()->is('admin/atletas/adicionar-atleta')) ? 'active' : '' }}">
-                    <a href="#" class="sidebar-link">
+                    <a href="{{route('admin.atletas.adicionar-atleta')}}" class="sidebar-link">
                         <i class="fa-solid fa-plus"></i>
                         <span>Adicionar Atleta</span>
                     </a>
                 </li>
                 
-                <li class="sidebar-item {{ (request()->is('admin/atletas/todos-atletas')) ? 'active' : '' }}">
-                    <a href="#" class="sidebar-link">
+                <li class="sidebar-item {{ (request()->is('admin/atletas/todos-os-atletas')) ? 'active' : '' }}">
+                    <a href="{{route('admin.atletas')}}" class="sidebar-link">
                         <i class="fa-solid fa-list-ul"></i>
                         <span>Todos os Atletas</span>
                     </a>
