@@ -49,8 +49,8 @@
                                         <div class="form-group mb-3">
                                             <select name="genero" id="genero" class="form-select">
                                                 <option value="">-- Selecione um Gênero --</option>
-                                                <option value="m">Masculino</option>
-                                                <option value="f">Feminino</option>
+                                                <option value="1">Masculino</option>
+                                                <option value="2">Feminino</option>
                                             </select>
                                         </div>
                                     </div>

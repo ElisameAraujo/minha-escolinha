@@ -63,14 +63,28 @@
                                 <input type="text" class="form-control" id="documento" name="documento" value="{{ old('documento') }}">
                             </div>
 
-                            <!-- Gênero -->
-                            <div class="form-group">
-                                <label for="genero" class="form-label">Gênero</label>
-                                <select name="genero" id="genero" class="form-select">
-                                    <option value="" disabled selected>-- Selecione uma Opção --</option>
-                                    <option value="m">Masculino</option>
-                                    <option value="f">Feminino</option>
-                                </select>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- Gênero -->
+                                    <div class="form-group">
+                                        <label for="genero" class="form-label">Gênero</label>
+                                        <select name="genero" id="genero" class="form-select">
+                                            <option value="" disabled selected>-- Selecione uma Opção --</option>
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Feminino</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Categoria -->
+                                    <div class="form-group">
+                                        <label for="categoriaAtletaID" class="form-label">Categoria do Atleta</label>
+                                        <select name="categoriaAtletaID" id="categoriaAtletaID" class="form-select">
+                                            <option value="" disabled selected>-- Selecione uma Categoria --</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
 
                             <!-- Posição -->
