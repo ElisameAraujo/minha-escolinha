@@ -23,6 +23,8 @@ class InformacoesProjetoSeeder extends Seeder
         ])->create([
             'infoID' => 4,'informacao' => 'endereco', 'valor' => NULL
         ])->create([
+            'infoID' => 4,'informacao' => 'cidade', 'valor' => NULL
+        ])->create([
             'infoID' => 5,'informacao' => 'uf', 'valor' => NULL
         ])->create([
             'infoID' => 6,'informacao' => 'facebookURL', 'valor' => NULL
