@@ -3,10 +3,10 @@
 @section('titulo', 'Dashboard')
 
 @section('conteudo')
-    @include('components.dashboard.resumo')
-    @include('components.dashboard.partidas')
-    @include('components.dashboard.ultimas-partidas')
-    @include('components.dashboard.scouts')
-    @include('components.dashboard.videos')
-    @include('components.dashboard.blog')
+    @include('components.admin.dashboard.resumo')
+    @include('components.admin.dashboard.partidas')
+    @include('components.admin.dashboard.ultimas-partidas')
+    @include('components.admin.dashboard.scouts')
+    @include('components.admin.dashboard.videos')
+    @include('components.admin.dashboard.blog')
 @endsection

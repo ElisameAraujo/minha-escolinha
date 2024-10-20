@@ -46,8 +46,8 @@
                     </a>
                 </li>
 
-                <li class="sidebar-item {{ (request()->is('admin/atletas/categorias-jogadores')) ? 'active' : '' }}">
-                    <a href="#" class="sidebar-link">
+                <li class="sidebar-item {{ (request()->is('admin/atletas/categorias-atleta')) ? 'active' : '' }}">
+                    <a href="{{route('admin.atletas.categorias-atleta')}}" class="sidebar-link">
                         <i class="fa-solid fa-tags"></i>
                         <span>Categorias</span>
                     </a>

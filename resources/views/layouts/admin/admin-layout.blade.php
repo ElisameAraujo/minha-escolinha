@@ -24,15 +24,15 @@
     
     <div id="app">
         
-        @include('components.geral.sidebar')
+        @include('components.admin.geral.sidebar')
         
         <div id="main">
             <section class="main-content">
-                @include('components.geral.profile-menu')
+                @include('components.admin.geral.profile-menu')
     
                 @yield('conteudo')
     
-                @include('components.geral.footer')
+                @include('components.admin.geral.footer')
             </section>
         </div>
     
