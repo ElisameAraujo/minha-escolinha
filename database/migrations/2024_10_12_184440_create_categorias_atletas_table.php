@@ -15,7 +15,7 @@ return new class extends Migration
             $table->increments('categoriaAtletaID');
             $table->string('categoriaNome');
             $table->string('categoriaDenominacao');
-            $table->tinyInteger('genero')->nullable();
+            $table->tinyInteger('genero');
         });
     }
 
