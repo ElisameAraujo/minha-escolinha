@@ -1,3 +1,5 @@
+/** Extras **/
+
 html[data-bs-theme=dark] .card.bg-primary, 
 .card-header.bg-primary h4, 
 .card.bg-dark, 
@@ -24,4 +26,15 @@ html[data-bs-theme=dark] .badge-notification {
     top: 0px;
     font-size: 10px;
     padding: 3px 6px
+}
+
+/** Tooltips **/
+html[data-bs-theme=dark] .tooltip-inner {
+    max-width: 600px;
+    white-space: wrap;
+}
+
+html[data-bs-theme=dark] .tooltip {
+    --bs-tooltip-color: #000;
+    --bs-tooltip-bg: #fff;
 }
