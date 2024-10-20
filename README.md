@@ -96,4 +96,4 @@ Adicione e remova facilmente os patrocinadores da sua equipe na página inicial 
 - Ainda não há nenhum pacote adicionado.
 
 # Extensões Javascript
-- Ainda não há nenhuma extensão adicionada.
+- [beholdr/maska](https://github.com/beholdr/maska)
