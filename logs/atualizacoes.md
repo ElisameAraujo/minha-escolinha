@@ -7,3 +7,4 @@
 
 ## Migrations
 - Adicionado campos 'endereco', 'genero' e 'esporte' para tabela de *atletas* *(20/10/2024)*
+- Aumentado tamanho do campo 'valor' na tabela *informacoes_projeto* para 1024 caracteres *(20/10/2024)*
