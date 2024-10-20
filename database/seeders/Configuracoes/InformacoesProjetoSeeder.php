@@ -23,33 +23,33 @@ class InformacoesProjetoSeeder extends Seeder
         ])->create([
             'infoID' => 4,'informacao' => 'endereco', 'valor' => NULL
         ])->create([
-            'infoID' => 4,'informacao' => 'cidade', 'valor' => NULL
+            'infoID' => 5,'informacao' => 'cidade', 'valor' => NULL
         ])->create([
-            'infoID' => 5,'informacao' => 'uf', 'valor' => NULL
+            'infoID' => 6,'informacao' => 'uf', 'valor' => NULL
         ])->create([
-            'infoID' => 6,'informacao' => 'facebookURL', 'valor' => NULL
+            'infoID' => 7,'informacao' => 'facebookURL', 'valor' => NULL
         ])->create([
-            'infoID' => 7,'informacao' => 'instagramURL', 'valor' => NULL
+            'infoID' => 8,'informacao' => 'instagramURL', 'valor' => NULL
         ])->create([
-            'infoID' => 8,'informacao' => 'youtubeURL', 'valor' => NULL
+            'infoID' => 9,'informacao' => 'youtubeURL', 'valor' => NULL
         ])->create([
-            'infoID' => 9,'informacao' => 'tipoDeProjeto', 'valor' => NULL
+            'infoID' => 10,'informacao' => 'tipoDeProjeto', 'valor' => NULL
         ])->create([
-            'infoID' => 10,'informacao' => 'categoriaEsporte', 'valor' => NULL
+            'infoID' => 11,'informacao' => 'categoriaEsporte', 'valor' => NULL
         ])->create([
-            'infoID' => 11,'informacao' => 'cnpj', 'valor' => NULL
+            'infoID' => 12,'informacao' => 'cnpj', 'valor' => NULL
         ])->create([
-            'infoID' => 12,'informacao' => 'logoEscudoProjeto', 'valor' => NULL
+            'infoID' => 13,'informacao' => 'logoEscudoProjeto', 'valor' => NULL
         ])->create([
-            'infoID' => 13,'informacao' => 'corPrimaria', 'valor' => NULL
+            'infoID' => 14,'informacao' => 'corPrimaria', 'valor' => NULL
         ])->create([
-            'infoID' => 14,'informacao' => 'corSecundaria', 'valor' => NULL
+            'infoID' => 15,'informacao' => 'corSecundaria', 'valor' => NULL
         ])->create([
-            'infoID' => 15,'informacao' => 'corTerciaria', 'valor' => NULL
+            'infoID' => 16,'informacao' => 'corTerciaria', 'valor' => NULL
         ])->create([
-            'infoID' => 16,'informacao' => 'valorMensalidade', 'valor' => NULL
+            'infoID' => 17,'informacao' => 'valorMensalidade', 'valor' => NULL
         ])->create([
-            'infoID' => 17,'informacao' => 'diaVencimentoMensalidade', 'valor' => 5
+            'infoID' => 18,'informacao' => 'diaVencimentoMensalidade', 'valor' => 5
         ]);
     }
 }
